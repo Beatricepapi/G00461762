@@ -9,4 +9,14 @@ public class StudentController {
     public String health() {
         return "OK";
     }
+
+    @PostMapping("/name")
+    public String name(@RequestParam String name) {
+        return null;
+    }
+
+    @GetMapping("/room")
+        public String room(@RequestParam String name) {
+        return null;
+    }
 }
