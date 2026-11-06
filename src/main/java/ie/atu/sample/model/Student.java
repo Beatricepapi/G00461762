@@ -13,7 +13,7 @@ public class Student {
     @Getter
     private String name;
 
-    @ManyToOne @JoinColumn(name:"room_id")
+    @JoinColumn(name:"room_id")
     @Getter
     @Setter
     private Category roomId;
